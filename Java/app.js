@@ -1,12 +1,27 @@
 var solution = Math.floor(Math.random() * 4);
 console.log(solution);
 
+for (var i = 0; i < 3 ; i++) {
 var response = prompt("Veuiller entrer un nombre entre 0 et 3!");
 console.log(response);
 
-if response==solution(1, 2, 3)){
-	console.log(1, 2, 3);
+if (response==solution) {
+	console.log("Félicitation tu as gagné bravo!");
+	break;
+}
+
+else{
+console.log("Tu as perdu");
+}
 
 }
+
+
+
+
+
+
+
+
 
 		
